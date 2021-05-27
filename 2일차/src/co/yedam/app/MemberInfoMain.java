@@ -8,6 +8,7 @@ public class MemberInfoMain {
 		
 		member.input();
 		member.heightWeightInput();
+		
 		member.print();
 		System.out.println(member.bmi());
 	}

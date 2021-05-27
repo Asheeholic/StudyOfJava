@@ -7,5 +7,6 @@ public class AppMain {
 		BaseBallApp baseBall = new BaseBallApp();
 		
 		baseBall.start();
+		System.out.println("Game Over!");
 	}
 }

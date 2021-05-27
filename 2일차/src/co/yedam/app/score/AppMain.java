@@ -13,6 +13,7 @@ public class AppMain {
 				"평균 : " + score.getAvg() + ", " +
 				"성적 : " + score.getGrade()
 				);
+		System.out.println("합격여부 : " + (score.isPass() ? "합격" : "불합격"));
 		
 	}
 

@@ -37,12 +37,22 @@ public class ScoreApp {
 	// 평균 계산
 
 	float getAvg() {
-		avg = sum / 3;
+		avg =  (kor + eng + mat) / 3;
 		return avg;
+	}
+	
+	boolean isPass() {
+		// 평균이 60 이상이면 true
+		// 아니면 false;
+		if ((kor + eng + mat) / 3 > 60) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	char getGrade() {
-		switch ((int) avg / 10) {
+		switch ((int) ((kor + eng + mat) / 3) / 10) {
 		case 10: // 10과 9는 결과가 같으므로 무시 해도 됨
 		case 9:
 			grade = '수';

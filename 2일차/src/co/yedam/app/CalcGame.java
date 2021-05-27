@@ -20,6 +20,7 @@ public class CalcGame {
 
 		a = Double.parseDouble(s1);
 		b = Double.parseDouble(s2);
+		scanner.close();
 	}
 
 	// two int addition method(function)

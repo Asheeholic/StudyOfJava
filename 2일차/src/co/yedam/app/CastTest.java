@@ -64,10 +64,11 @@ public class CastTest {
 		System.out.println(s2);
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("ют╥б : ");
+		System.out.print("О©╫т╥О©╫ : ");
 		String greet = scanner.next();
 		
 		System.out.println(greet);
+		scanner.close();
 	}
 
 }

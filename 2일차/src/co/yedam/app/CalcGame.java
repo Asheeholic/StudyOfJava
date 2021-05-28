@@ -10,6 +10,13 @@ public class CalcGame {
 	double a;
 	double b;
 
+	int sum(int cnt) {
+		int result = 0;
+		result = cnt * (cnt+1) / 2;
+		
+		return result;
+	}
+	
 	void input() {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("ют╥б : ");

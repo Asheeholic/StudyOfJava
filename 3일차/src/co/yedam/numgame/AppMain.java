@@ -1,7 +1,7 @@
 package co.yedam.numgame;
 
 /*
- * 숫자맞추기 게임 과제
+ * 숫자맞추기 게임 과제 ㅇㅇ
  */
 public class AppMain {
 

@@ -1,5 +1,6 @@
 package co.yedam.score;
 
+// 클래스 선언
 public class ArrayApp {
 	int[] arr = new int[10];
 	// 배열의 초기값 지정

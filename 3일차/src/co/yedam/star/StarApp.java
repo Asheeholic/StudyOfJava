@@ -28,7 +28,20 @@ public class StarApp {
 		}
 	}
 	
-	
+	void tree(char c, int a) {
+		for (int i=1; i<=a; i++) {
+			System.out.println(pad(' ', (3*a)-4 -i) + pad(c, i*2-1));
+		}
+		for (int i=1; i<=a; i++) {
+			System.out.println(pad(' ', (2*a)-2 -i) + pad(c, (2*a)+(i*2)-5));
+		}
+		for (int i=1; i<=a; i++) {
+			System.out.println(pad(' ', a-i) + pad(c, (4*a)+(i*2)-9));
+		}
+		for (int i=1; i<=3; i++) {
+			System.out.println(pad(' ', (3*a)-6) + pad(c, 3));
+		}
+	}
 	
 	// 모양"*"과 개수10를 넘기면 --> "**********" 
 	String pad(char s, int cnt) {

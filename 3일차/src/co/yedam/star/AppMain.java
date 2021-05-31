@@ -24,7 +24,7 @@ public class AppMain {
 		 *       ***
 		 *       ***
 		 */
-		star.tree('@', 10); // parameter == char c, int a
+		star.tree('@', 5); // parameter == char c, int a
 	}
 
 }

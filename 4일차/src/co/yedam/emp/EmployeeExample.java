@@ -1,4 +1,4 @@
-package co.yedam.exam;
+package co.yedam.emp;
 
 public class EmployeeExample {
 

@@ -7,7 +7,7 @@ public class GugudanApp {
 	 * System.out.println(i + " * " + j + " = " + (i*j)); } }
 	 */
 	// 입력받은 단만 출력
-	void printDan(int a) {
+	public void printDan(int a) {
 		for (int i = 1; i < 10; i++) {
 			System.out.print(a + " * " + i + " = " + (a * i));
 		}

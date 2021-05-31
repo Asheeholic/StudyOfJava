@@ -1,4 +1,4 @@
-package co.yedam.exam;
+package co.yedam.emp;
 
 // 사원정보
 public class Employee {

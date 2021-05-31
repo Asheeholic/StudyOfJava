@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="co.yedam.member.Member" project="4일차" file="/4일차/src/co/yedam/member/Member.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="472" y="270"/>    
+  <class id="1" language="java" name="co.yedam.emp.EmployeeApp" project="4일차" 
+    file="/4일차/src/co/yedam/emp/EmployeeApp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="179" y="147"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="co.yedam.member.MemberService" project="4일차" 
-    file="/4일차/src/co/yedam/member/MemberService.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="241" width="207" x="98" y="143"/>    
-    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+  <class id="2" language="java" name="co.yedam.emp.Employee" project="4일차" file="/4일차/src/co/yedam/emp/Employee.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="406" y="162"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="co.yedam.member.MemberServiceExample" project="4일차" 
-    file="/4일차/src/co/yedam/member/MemberServiceExample.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="715" y="228"/>    
+  <class id="3" language="java" name="co.yedam.emp.EmployeeAppMain" project="4일차" 
+    file="/4일차/src/co/yedam/emp/EmployeeAppMain.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="634" y="108"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -29,15 +29,11 @@
     </display>  
   </class>  
   <association id="4">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="5" name="members">        
-        <position height="0" width="0" x="290" y="-28"/>      
-      </attribute>      
-      <multiplicity id="6" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="290" y="-28"/>      
-      </multiplicity>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="5" name="arr"/>      
+      <multiplicity id="6" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
+    <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

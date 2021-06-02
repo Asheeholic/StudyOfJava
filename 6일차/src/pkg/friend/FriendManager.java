@@ -1,7 +1,5 @@
 package pkg.friend;
 
-import java.util.List;
-
 public class FriendManager implements FriendAccess {
 	Friend[] friends = new Friend[5];
 	
@@ -26,19 +24,18 @@ public class FriendManager implements FriendAccess {
 	}
 
 	@Override
-	public void delete(Friend friend) {
+	public void delete(String name) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public List selectAll() {
+	public void selectAll() {
 		System.out.println("Friend Manager out");
-		return null;
 	}
 
 	@Override
-	public Friend selectOne(Object key) {
+	public Friend selectOne(String name) {
 		// TODO Auto-generated method stub
 		return null;
 	}

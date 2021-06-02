@@ -1,6 +1,5 @@
 package pkg.friend;
 
-import java.util.List;
 
 /**
  * 

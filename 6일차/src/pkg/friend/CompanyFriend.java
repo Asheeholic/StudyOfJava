@@ -16,9 +16,9 @@ public class CompanyFriend extends Friend {
 
 	@Override
 	public void print() {
-		super.print();
-		System.out.println("duty : " + duty);
-		//System.out.printf("회사친구 : %20s %20s %20s %20s\n", gubun, name, tel, duty);
+//		super.print();
+//		System.out.println("duty : " + duty);
+		System.out.printf("회사친구 : %20s %20s %20s %20s\n", gubun, name, tel, duty);
 	}
 
 	@Override

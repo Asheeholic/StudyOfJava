@@ -19,18 +19,29 @@ public class FriendList implements FriendAccess {
 
 	@Override
 	public void update(Friend friend) {
-		// TODO Auto-generated method stub
-
+		for (Friend f : friends) {
+			if (f.getName().equals(friend.name)) {
+				f.setGubun(friend.gubun);
+				f.setTel(friend.tel);
+			}
+		}
 	}
 
 	@Override
 	public void delete(String name) {
-		// TODO Auto-generated method stub
-
+		for (Friend f : friends) {
+			if (f.getName().equals(name)) {
+				friends.remove(f);
+			}
+		}
 	}
 
 	@Override
 	public void selectAll() {
+		System.out.printf("%10s %10s %10s\n", "구분", "이름", "전화번호");
+		for (Friend f : friends) {
+			System.out.printf("%10s %10s %10s\n", f.getGubun(), f.getName(), f.getTel());
+		}
 		System.out.println("Friend List out");
 	}
 

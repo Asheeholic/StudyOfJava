@@ -56,4 +56,22 @@ public class Robot {
 	public void print() {
 		System.out.printf("arm : %d, leg : %d, name: %s", arm, leg, name);
 	}
+
+	@Override  
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		//return super.equals(obj);
+		Robot r2 = ((Robot)obj); // 오버라이딩 해서 타입을 바꿔서 쓰는 방식이 되게 자주 쓰임.
+		return r2.arm == this.arm && r2.leg == this.leg;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		//return super.toString();
+		return "arm:" + this.arm + ", "+ "leg:" + this.leg;
+	}
+	
+	
+	
 }
